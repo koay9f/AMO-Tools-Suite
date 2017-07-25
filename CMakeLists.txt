@@ -58,7 +58,6 @@ set(SOURCE_FILES
 #    src/FieldData.cpp
 #    src/Financial.cpp
         src/psat/Motor.cpp
-        src/psat/OptimizationRating.cpp
         src/psat/PSATResult.cpp
         src/psat/Pump.cpp
         src/calculator/util/AnnualCost.cpp
@@ -119,7 +118,6 @@ set(INCLUDE_FILES
         include/psat/FieldData.h
         include/psat/Financial.h
         include/psat/Motor.h
-        include/psat/OptimizationRating.h
         include/psat/PSATResult.h
         include/psat/Pump.h
         include/calculator/util/AnnualCost.h
@@ -212,6 +210,8 @@ set(TEST_FILES
         tests/O2Enrichment.unit.cpp
         tests/FlowCalculationsEnergyUse.unit.cpp
         tests/EnergyInputExhaustGasLosses.unit.cpp
+        tests/HumidityRatio.unit.cpp
+        tests/PSATResult.unit.cpp
         tests/HumidityRatio.unit.cpp
         tests/SaturatedProperties.unit.cpp
         tests/SteamProperties.unit.cpp
